@@ -6,7 +6,7 @@ Target performs read/write operation with different scenarios for each operation
 An 8 words (32-bit) register is used as the main memory in the target and another 8 words cache memory as storage in case of overflow of registers main memory.  
 Target address is assigned as 32’h111111xxx with the last 3 bits determining which register to perform the operation on  
 
-Target opreates as follows:
+# Target opreates as follows:
 -When the PCI target device receives the command and recognize its address,   
 a. The DEVSEL should be configured properly (asserted low at certain time).   
 b. The TRDY should be configured properly (asserted low at certain time).  
