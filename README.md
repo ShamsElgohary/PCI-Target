@@ -1,4 +1,4 @@
-# PCI-Target Project
+# PCI-Target Project Description
 PCI target implemented using Verilog which is a hardware description language.  
 Target receives commands from the initiator (master) and starts acting according to it.  
 Target is capable of identifying if the master is calling it’s address or another address.  
